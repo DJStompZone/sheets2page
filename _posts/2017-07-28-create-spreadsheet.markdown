@@ -8,10 +8,10 @@ link-2-url: 'https://docs.google.com/spreadsheets/d/1M_trEXOgzOWVn5YJSWfcXYQ7CXu
 image: 'https://s3.amazonaws.com/kinlane-productions/lessons/create-spreadsheet.png'
 video: ''
 audio: ''
-issue: 'https://github.com/contrafabulists-lessons/google-sheet-to-github-website/issues/4'
+issue: 'https://github.com/contrafabulists-lessons/google-sheet-to-github-website/issues/3'
 date: '117-6-28T01:01:00-01:00'
 ---
-For this lesson I am assuming that you have a Google account, and are aware of Google Drive and Sheets, as the datasource for the project will be a Google Sheet. While not as powerful as a database, Google Sheets work just fine as a small data store, perfect for publishing simple data-driven projects. The best part is that it can be used as a data store by anyone, not just developers, making it an ideal vehicle for moving forward small data projects similar to how you would manage code using GitHub. 
+For this lesson I am assuming that you have a Google account, and are aware of Google Drive and Sheets, as the datasource for the project will be a Google Sheet. While not as powerful as a database, Google Sheets work just fine as a small data store, perfect for publishing simple data-driven projects. The best part is that it can be used as a data store by anyone, not just developers, making it an ideal vehicle for moving forward small data projects similar to how you would manage code using GitHub.
 
 This project depends on a specific set of fields, which are set as the first row for each column in the spreadsheet. Here are the fields needed for this project, and for each lesson:
 
