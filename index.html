@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="cf frame">
+  <a name="toplesson"></a>
+  {% for post in paginator.posts %}
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title" itemprop="name"><a href="{{ post.link1 }}" itemprop="url">{{ post.title }}</a></h2>
+        </header>
+        <section class="post-excerpt" itemprop="description">
+        <p><img src="{{ post.image }}" width="35%" style="padding: 15px;" align="right" /></p>
+        <p>{{ post.content }}</p>
+        </section>
+        {% if post.link-1-url == '' or post.link-2-url == '' %}
+        <div class="post-meta">
+          <p><strong>Links</strong></p>
+          <ul>
+            {% if post.link-1-url != '' %}<li><a href="{{ post.link-1-url }}">{{ post.link-1-label }}</a></li>{% endif %}
+            {% if post.link-2-url != '' %}<li><a href="{{ post.link-2-url }}">{{ post.link-2-label }}</a></li>{% endif %}
+          </ul>
+        </div>
+        {% endif %}
+      <div>
+    </article>
+  {% endfor %}
+</div>
+
+<nav>
+  <table width="100%" border="0">
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <td align="left" width="25%" style="padding-bottom: 5px;"><a class="older-posts" href="/google-sheets-to-github-jekyll-yaml-manager/#toplesson"><strong><< Previous</strong></a></td>
+    {% else %}
+      <td align="left" width="25%" style="padding-bottom: 5px;"><a class="older-posts" href="/google-sheets-to-github-jekyll-yaml-manager/page{{paginator.previous_page}}#toplesson"><strong><< Previous</strong></a></td>
+    {% endif %}
+  {% else %}
+    <td align="left" width="25%"> </td>
+  {% endif %}
+  <td align="center" width="50%">Page {{ paginator.page }} of {{ paginator.total_pages }}</td>
+  {% if paginator.next_page %}
+    <td align="right" width="25%" style="padding-bottom: 5px;"><a class="newer-posts" href="/google-sheets-to-github-jekyll-yaml-manager/page{{paginator.next_page}}#toplesson"><strong>Next >></strong></a></td>
+  {% endif %}
+  </table>
+</nav>
