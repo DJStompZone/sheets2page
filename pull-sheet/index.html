@@ -135,7 +135,7 @@ layout: default
                 var github = new Github({token: $oAuthToken,auth: "oauth"});
                 var repo = github.getRepo($org,$repo);
 
-                repo.delete("master",$writepath, function(err){});
+                //repo.delete("master",$writepath, function(err){});
 
                 repo.write('master',$writepath,'Save', function(err){
 
