@@ -14,15 +14,14 @@ layout: default
         <p><img src="{{ post.image }}" width="45%" style="padding: 15px;" align="right" /></p>
         <p>{{ post.content }}</p>
         </section>
-        {% if post.link-1-url == '' or post.link-2-url == '' %}
         <div class="post-meta">
           <p><strong>Links</strong></p>
           <ul>
+            <li><a href="{{ post.link-1-url }}">{{ post.link-1-label }}</a></li>
             {% if post.link-1-url != '' %}<li><a href="{{ post.link-1-url }}">{{ post.link-1-label }}</a></li>{% endif %}
             {% if post.link-2-url != '' %}<li><a href="{{ post.link-2-url }}">{{ post.link-2-label }}</a></li>{% endif %}
           </ul>
         </div>
-        {% endif %}
       <div>
     </article>
   {% endfor %}
