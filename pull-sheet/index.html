@@ -98,7 +98,7 @@ layout: default
                 $image = data['image'];
                 $video = data['video'];
                 $audio = data['audio'];
-                $help = data['help'];
+                $issues = data['issues'];
 
                 var $d = new Date();
                 var $m = $d.getMonth();
@@ -123,7 +123,7 @@ layout: default
                 $writebody = $writebody + "image: '" + $image + "'\r\n";
                 $writebody = $writebody + "video: '" + $video + "'\r\n";
                 $writebody = $writebody + "audio: '" + $audio + "'\r\n";
-                $writebody = $writebody + "help: '" + $help + "'\r\n";
+                $writebody = $writebody + "issues: '" + $issues + "'\r\n";
                 $writebody = $writebody + "date: '" + $y + "-" + $m + "-" + $count2 + "T01:01:00-01:00'\r\n";
                 $writebody = $writebody + "---\r\n"
                 $writebody = $writebody + $description + "\r\n";
