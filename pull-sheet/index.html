@@ -10,12 +10,12 @@ layout: default
    <p>This script pulls from the spreadsheet that is specified and writes its content to the underlying _data folder.</p>
 
     <!--These are JavaScript Libraries-->
-    <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/utility.js"></script>
-    <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/cookies.js"></script>
-    <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/tabletop.js"></script>
-    <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/js-yaml.min.js"></script>
-    <script type="text/javascript" src="https://contrafabulists-toolbox.github.io/master/javascript/github.js"></script>
+    <script type="text/javascript" src="https://contrafabulists-lessons.github.io/master/javascript/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://contrafabulists-lessons.github.io/master/javascript/utility.js"></script>
+    <script type="text/javascript" src="https://contrafabulists-lessons.github.io/master/javascript/cookies.js"></script>
+    <script type="text/javascript" src="https://contrafabulists-lessons.github.io/master/javascript/tabletop.js"></script>
+    <script type="text/javascript" src="https://contrafabulists-lessons.github.io/master/javascript/js-yaml.min.js"></script>
+    <script type="text/javascript" src="https://contrafabulists-lessons.github.io/master/javascript/github.js"></script>
 
     <script type="text/javascript">
 
@@ -140,7 +140,7 @@ layout: default
                   $("#result").append("<p>We have another page to build, and need to load page...</p>");
 
                   $page = $page - 1;
-                  $url = 'https://contrafabulists-toolbox.github.io/google-sheets-to-github-jekyll-yaml-manager/pull-sheet/?token=' + $oAuthToken + '&key=' + $key + '&worksheet=' + $resource + '&org=' + $org + '&repo=' + $repo + '&branch=' + $branch + '&page=' + $page;
+                  $url = 'https://contrafabulists-lessons.github.io/google-sheets-to-github-jekyll-yaml-manager/pull-sheet/?token=' + $oAuthToken + '&key=' + $key + '&worksheet=' + $resource + '&org=' + $org + '&repo=' + $repo + '&branch=' + $branch + '&page=' + $page;
                   //console.log("URL:" + $url);
                   location.href = $url;
 
