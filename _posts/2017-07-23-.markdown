@@ -1,0 +1,31 @@
+---
+slug: ''
+title: 'Pull Google Sheet And Update YAML'
+link-1-label: ''
+link-1-url: ''
+link-2-label: ''
+link-2-url: ''
+image: 'https://s3.amazonaws.com/kinlane-productions/lessons/google-github-script.png'
+video: ''
+audio: ''
+issue: 'https://github.com/contrafabulists-lessons/google-sheet-to-github-website/issues/9'
+date: '117-6-23T01:01:00-01:00'
+---
+The key to keeping the Google Sheet in sync with the GitHub Pages deployed website is to run a single JavaScript the is available in the project under the folder /pull-sheet/. This step of lesson requires you to replace some values in the URL, allowing the script to know where to pull the spreadsheet, and where it should be writing to--including the personall access token we generated in the last step.
+
+This is the URL you will need to update, replacing anything in [brackets] with your values:
+
+https://[github or/user].github.io/[github repo]/pull-sheet/?org=[github or/user]&repo=[github repo]&branch=[github branch]&token=[token]&key=[key]&worksheet=[worksheet]
+
+To help understand what is happening within this script let's explore the parameters needed as part of the URL:
+
+- **github org/user** - The GitHub organization or user of where this project's repository is published.
+- **github repo** - The GitHub repository for this project.
+- **github branch** - The branch the project is stored in -- master is default.
+- **token** - Your personal access token, which only should be passed through URL.
+- **key** - The id of the Google Sheet, which can be found in the URL--it is the big jumble of letters and numbers in between /d/ and /edit.
+- **worksheet** - The name of the worksheet you want to pull data from.
+
+Once you have assembled the URL you can open your browser and run the pull data from the Google Sheet, convert to YAML, and then write it to the GitHub repo. Dont worry, you won't mess things up. You can always roll back any changes to what was working before--one of the benefits of running data projects on GitHub, using repositories. 
+
+You can run this script anytime you make changes to the Google Sheet. Each change will be committed to the project's repository, which can also be directly edit via the GitHub website, or locally using GitHub's desktop client.
