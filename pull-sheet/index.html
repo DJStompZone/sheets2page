@@ -134,10 +134,7 @@ layout: default
 
                 var github = new Github({token: $oAuthToken,auth: "oauth"});
                 var repo = github.getRepo($org,$repo);
-
-                //repo.delete("master",$writepath, function(err){});
-
-                repo.write('master',$writepath,'Save', function(err){
+                repo.write('master',$writepath, $writebody, 'Save', function(err){
 
                   // Display we are leaving...
                   $("#result").append("<p>We have another page to build, and need to load page...</p>");
