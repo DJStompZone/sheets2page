@@ -408,12 +408,13 @@
     <p>This lesson is a work in progress. It runs on GitHub, and I'm moving it
     forward like I would any coding project on Github. This lesson runs using
     the same process described in the lesson. Each step of this lesson lives in
-    a Google Sheet, and is published to Github using a script. However, instead
-    of publishing a single YAML file to the _data folder, it <a
-    href="https://github.com/contrafabulists-lessons/google-sheet-to-github-website/tree/master/_posts">publishes
-    a single post to the _posts folder</a>, taking advantage of the blog featues
-    that Jekyll bring to the table. Each step of the lesson lives as a Jekyll
-    blog post, allowing me to easily paginate through each entry in this
+    a Google Sheet, and is published to Github using a script. <a
+    href="https://github.com/contrafabulists-lessons/google-sheet-to-github-website/tree/master/_data">Publishing
+    a single YAML file to the _data folder</a>, taking advantage of the daa
+    featues that Jekyll bring to the table. Each step of the lesson lives as an
+    entry in <a
+    href="https://github.com/contrafabulists-lessons/google-sheet-to-github-website/blob/master/_data/lesson.yaml">a
+    single YAML file</a>, allowing me to easily loop through each entry in this
     lesson--with everything running on Github, keeping things forkable.</p>
 
     <p>I'm looking for feedback on the lesson at each step using Github issues.
