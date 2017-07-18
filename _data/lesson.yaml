@@ -6,7 +6,7 @@
     I am looking to provide short, easily consumed lessons around specific
     platforms, technology, and in many cases APIs. Each lesson runs as a Google
     Sheet with a corresponding GitHub repository and website that is driven by
-    YAML, Liquid and HTML. 
+    YAML, Liquid and HTML.
 
 
     This particular lesson is focused on teaching the process behind driving a
@@ -42,7 +42,7 @@
     Google Sheets as the data source, and GitHub Pages as the public website.
     Think of it as a low costs static way of doing WordPress, but instead of a
     MySQL database we are using Google Sheets, and instead of PHP we are using
-    Jekyll, with everything hosted on GitHub Pages. 
+    Jekyll, with everything hosted on GitHub Pages.
 
 
     So, why would you want to do this?
@@ -69,7 +69,7 @@
     living as YAML entries in the _posts folder. We are mimicking blog behavior
     to take advantage of a key Jekyll feature, allowing each step of the lesson
     to live as a individual post--allowing users to "paginate" through the
-    lesson until they reach the final entry. 
+    lesson until they reach the final entry.
 
 
     <a
@@ -99,7 +99,7 @@
     fine as a small data store, perfect for publishing simple data-driven
     projects. The best part is that it can be used as a data store by anyone,
     not just developers, making it an ideal vehicle for moving forward small
-    data projects similar to how you would manage code using GitHub. 
+    data projects similar to how you would manage code using GitHub.
 
 
     This project depends on a specific set of fields, which are set as the first
@@ -190,7 +190,7 @@
     and are somewhat familar with creating a GitHub repository. You do not need
     to be able to code to operate GitHub. Just think of repositories as folders,
     and each data project you create will have a folder, and eventually a
-    website using GitHub Pages. 
+    website using GitHub Pages.
 
 
     To create a new repository make sure you are logged into your GitHub
@@ -249,7 +249,7 @@
     Visit the settings one more time, and scroll to the GitHub Pages section one
     last time. You will now see a URL for your now published website, allowing
     you to browse the frontend of the website, or manage the content via the
-    repository or the cloned copy you have on your desktop. 
+    repository or the cloned copy you have on your desktop.
   link-1-label: Github Pages
   link-1-url: 'https://pages.github.com/'
   link-2-label: ''
@@ -344,7 +344,7 @@
     data from the Google Sheet, convert to YAML, and then write it to the GitHub
     repo. Dont worry, you won't mess things up. You can always roll back any
     changes to what was working before--one of the benefits of running data
-    projects on GitHub, using repositories. 
+    projects on GitHub, using repositories.
 
 
     You can run this script anytime you make changes to the Google Sheet. Each
@@ -424,7 +424,7 @@
     keep developing this lesson format, rounding off with video and audio at
     each step. Helping me harden the approach so that I can fork and use as
     scaffolding for other lessons, and since it is open on GitHub, anyone else
-    can too. 
+    can too.
 
 
     This is the first lesson in a catalog of API focused lesson I'm developing.

@@ -19,9 +19,9 @@ title: Google Sheet To GitHub Website
         <div class="lesson-meta">
           <p><strong>Links</strong></p>
           <ul>
-            {% if lesson.link-1-url != '' %}<li><a href="{{ lesson.link-1-url }}">{{ lesson.link-1-label }}</a></li>{% endif %}
-            {% if lesson.link-2-url != '' %}<li><a href="{{ lesson.link-2-url }}">{{ lesson.link-2-label }}</a></li>{% endif %}
-            <li><a href="{{ lesson.issue }}">Github Issue For This Step</a></li>
+            {% if lesson.link-1-url != '' %}<li><a href="{{ lesson.link-1-url }}" target="_blank">{{ lesson.link-1-label }}</a></li>{% endif %}
+            {% if lesson.link-2-url != '' %}<li><a href="{{ lesson.link-2-url }}" target="_blank">{{ lesson.link-2-label }}</a></li>{% endif %}
+            <li><a href="{{ lesson.issue }}" target="_blank">Github Issue For This Step</a></li>
           </ul>
         </div>
       <div>
