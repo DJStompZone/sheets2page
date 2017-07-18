@@ -155,8 +155,9 @@
     you publish your Google Sheet to the web, you can copy and save the public
     URL to spreadsheet for sharing with others--all we will need from it to
     continue is the ID in the URL, which we'll discuss shortly.</p>
-  link-1-label: ''
-  link-1-url: ''
+  link-1-label: Google Help
+  link-1-url: >-
+    https://support.google.com/drive/answer/2494822?co=GENIE.Platform%3DDesktop&hl=en
   link-2-label: ''
   link-2-url: ''
   image-1: 'https://s3.amazonaws.com/kinlane-productions/lessons/publish-to-the-web.png'
