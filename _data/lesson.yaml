@@ -106,8 +106,8 @@
 
     <li><strong>title</strong> The title of the step.</li>
 
-    <li><strong>description**</strong> The description for the step -- may
-    include HTML.</li>
+    <li><strong>description</strong> The description for the step -- may include
+    HTML.</li>
 
     <li><strong>link-1-label</strong> A label for link one.</li>
 
