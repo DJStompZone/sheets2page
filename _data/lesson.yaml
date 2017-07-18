@@ -150,7 +150,8 @@
   link-2-label: Project Google Sheet
   link-2-url: >-
     https://docs.google.com/spreadsheets/d/1M_trEXOgzOWVn5YJSWfcXYQ7CXu3F3CS2Y-bKEaDUiE/pubhtml
-  image-1: 'https://s3.amazonaws.com/kinlane-productions/lessons/create-spreadsheet.png'
+  image-1: >-
+    https://s3.amazonaws.com/kinlane-productions/lessons/google-sheet-to-github/create-google-sheet-links.png
   image-2: ''
   video: ''
   audio: ''
