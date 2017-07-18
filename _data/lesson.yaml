@@ -1,30 +1,28 @@
 - slug: about-this-project
   title: About this Project
   description: >-
-    This is the first lesson in an ongoing series of lessons I am developing as
-    part of our Contrafabulists platform, and my own work as the API Evangelist.
-    I am looking to provide short, easily consumed lessons around specific
-    platforms, technology, and in many cases APIs. Each lesson runs as a Google
-    Sheet with a corresponding GitHub repository and website that is driven by
-    YAML, Liquid and HTML. 
+    <p>This is the first lesson in an ongoing series of lessons I am developing
+    as part of our Contrafabulists platform, and my own work as the API
+    Evangelist. I am looking to provide short, easily consumed lessons around
+    specific platforms, technology, and in many cases APIs. Each lesson runs as
+    a Google Sheet with a corresponding GitHub repository and website that is
+    driven by YAML, Liquid and HTML.</p>
 
-
-    This particular lesson is focused on teaching the process behind driving a
-    data driven website on GitHub Pages, with Google Sheets as the
+    <p>This particular lesson is focused on teaching the process behind driving
+    a data driven website on GitHub Pages, with Google Sheets as the
     backend--which is the same process I'm using to deliver this lesson. I'm
     wanting you to leave this lesson with the ability to publish any type of
     data-driven website using just Google Sheets and Github. Each step in this
     lesson has a title, body, image, links and in some cases audio or video,
-    helping guide you through the concepts involved.
+    helping guide you through the concepts involved.</p>
 
-
-    I'm also adding a help link which will take you to the GitHub issues for
+    <p>I'm also adding a help link which will take you to the GitHub issues for
     each step in this lesson, where you can engage in conversations, and ask
     questions of me and other readers. I'm looking forward to any feedback I can
     get, so that I can improve on the lesson for future students. I'm looking to
     make these as helpful and informative as I possibly can, helping folks
     understand the possibilities when it comes to delivering data driven
-    websites in this way.
+    websites in this way.</p>
   link-1-label: API Evangelist
   link-1-url: 'http://apievangelist.com'
   link-2-label: Contrafabulists
@@ -38,14 +36,13 @@
 - slug: introduction-to-lesson
   title: Introduction To Lesson
   description: >-
-    This is a lesson in how to pubish and manage a data driven website using
+    <p>This is a lesson in how to pubish and manage a data driven website using
     Google Sheets as the data source, and GitHub Pages as the public website.
     Think of it as a low costs static way of doing WordPress, but instead of a
     MySQL database we are using Google Sheets, and instead of PHP we are using
-    Jekyll, with everything hosted on GitHub Pages. 
+    Jekyll, with everything hosted on GitHub Pages.</p>
 
-
-    So, why would you want to do this?
+    <p>So, why would you want to do this?</p>
 
     <ul>
 
@@ -63,16 +60,14 @@
 
     </ul>
 
-
-    This lesson is a living project, and depends on the feedback of students to
-    help improve the content. This lesson lives within a GitHub repository,
+    <p>This lesson is a living project, and depends on the feedback of students
+    to help improve the content. This lesson lives within a GitHub repository,
     living as YAML entries in the _posts folder. We are mimicking blog behavior
     to take advantage of a key Jekyll feature, allowing each step of the lesson
     to live as a individual post--allowing users to "paginate" through the
-    lesson until they reach the final entry. 
+    lesson until they reach the final entry.</p>
 
-
-    <a
+    <p><a
     href="https://github.com/contrafabulists-lessons/google-sheet-to-github-website">This
     lesson is an open project that lives on GitHub allowing it to be forked by
     anyone</a>, and implemented under any other GitHub organization or user
@@ -80,7 +75,7 @@
     href="https://github.com/contrafabulists-lessons/google-sheet-to-github-website/issues">using
     the issues section for the project GitHub repository</a>, available at each
     step in the lesson as a link. Thank you for tuning in, and we look forward
-    to your feedback on the lesson.
+    to your feedback on the lesson.</p>
   link-1-label: Project Website
   link-1-url: 'https://contrafabulists-toolbox.github.io/google-sheet-to-github-website/'
   link-2-label: Project Github
@@ -93,18 +88,17 @@
 - slug: create-google-sheet
   title: Create Google Sheet
   description: >-
-    For this lesson I am assuming that you have a Google account, and are aware
-    of Google Drive and Sheets, since the datasource for the project will be a
-    Google Sheet. While not as powerful as a database, Google Sheets work just
-    fine as a small data store, perfect for publishing simple data-driven
+    <p>For this lesson I am assuming that you have a Google account, and are
+    aware of Google Drive and Sheets, since the datasource for the project will
+    be a Google Sheet. While not as powerful as a database, Google Sheets work
+    just fine as a small data store, perfect for publishing simple data-driven
     projects. The best part is that it can be used as a data store by anyone,
     not just developers, making it an ideal vehicle for moving forward small
-    data projects similar to how you would manage code using GitHub. 
+    data projects similar to how you would manage code using GitHub.</p>
 
-
-    This project depends on a specific set of fields, which are set as the first
-    row for each column in the spreadsheet. Here are the fields needed for this
-    project, and for each lesson:
+    <p>This project depends on a specific set of fields, which are set as the
+    first row for each column in the spreadsheet. Here are the fields needed for
+    this project, and for each lesson:</p>
 
     <ul>
 
@@ -135,21 +129,20 @@
 
     </ul>
 
-    I recommend freezing the first row in the Google Sheet, preventing it from
-    being caught up in any sorting of the steps. The script that takes the data
-    from this spreadsheet depends on all these fields being present to work
+    <p>I recommend freezing the first row in the Google Sheet, preventing it
+    from being caught up in any sorting of the steps. The script that takes the
+    data from this spreadsheet depends on all these fields being present to work
     right. Make sure you do not change the column field names, only the contents
-    of each row.
+    of each row.</p>
 
-
-    <a
+    <p><a
     href="https://contrafabulists-toolbox.github.io/google-sheet-to-github-website/">While
     any data project</a> developed in this way will run off of whatever data has
     been published to the GitHub repository, the Google Sheet will always remain
     the primary source. It provides an easy way to collaborate around any open
     data project. All you do is share the Google Sheet with anyone you want to
     help create or manage data, and publish regularly using the process outlined
-    in future steps for this lesson.
+    in future steps for this lesson.</p>
   link-1-label: Google Sheets
   link-1-url: 'https://docs.google.com/spreadsheets/'
   link-2-label: Project Google Sheet
@@ -163,22 +156,21 @@
 - slug: make-google-sheet-public
   title: Make Google Sheet Public
   description: >-
-    Now that you have a Google Sheet with the proper column field names, and
+    <p>Now that you have a Google Sheet with the proper column field names, and
     date entered into your spreadsheet, you will need to make the Google Sheet
     public. To do this, when you are in your Google Sheet, select from the File
     menu, and choose the publish to the web option. This will give you a modal
     window allowing you to configure how you'd like to share the Google Sheet
-    publicly.
+    publicly.</p>
 
-
-    When making your Google Sheet public you can choose to make the entire
+    <p>When making your Google Sheet public you can choose to make the entire
     Google Sheet public, or just a single worksheet public--I leave this to you,
     based upon the data you are making available. Each worksheet will ultimately
     become a single YAML data store in the GitHub repository, something you will
     be able to configure when you pull your data later on in this lesson. Once
     you publish your Google Sheet to the web, you can copy and save the public
     URL to spreadsheet for sharing with others--all we will need from it to
-    continue is the ID in the URL, which we'll discuss shortly.
+    continue is the ID in the URL, which we'll discuss shortly.</p>
   link-1-label: ''
   link-1-url: ''
   link-2-label: ''
@@ -191,29 +183,27 @@
 - slug: fork-github-repository
   title: Fork Github Repository
   description: >-
-    This portion of this lesson assumes that you already ahve a GitHub account,
-    and are somewhat familar with creating a GitHub repository. You do not need
-    to be able to code to operate GitHub. Just think of repositories as folders,
-    and each data project you create will have a folder, and eventually a
-    website using GitHub Pages. 
+    <p>This portion of this lesson assumes that you already ahve a GitHub
+    account, and are somewhat familar with creating a GitHub repository. You do
+    not need to be able to code to operate GitHub. Just think of repositories as
+    folders, and each data project you create will have a folder, and eventually
+    a website using GitHub Pages.</p>
 
-
-    To create a new repository make sure you are logged into your GitHub
+    <p>To create a new repository make sure you are logged into your GitHub
     account, then [visit the GitHub repository for this
     project](https://github.com/contrafabulists-toolbox/google-sheet-to-github-website),
     and click on the fork button in the top right corner. Forking of this
     project's GitHub repository will just copy this repository (folder) into the
     Github organization or user account of your choosing. You will then have
     your own copy of the project to play with and use without any effect on main
-    project.
+    project.</p>
 
-
-    You now have your own copy of this data project, in a GitHub repository you
-    control. You now have the equivalent of a hosted folder on a server, in this
-    case it is GitHub's servers. You can view the content of the folder with the
-    GitHub website, or clone using the desktop application and work on
+    <p>You now have your own copy of this data project, in a GitHub repository
+    you control. You now have the equivalent of a hosted folder on a server, in
+    this case it is GitHub's servers. You can view the content of the folder
+    with the GitHub website, or clone using the desktop application and work on
     locally--I recommend doing this. Now that we have a hosting location for our
-    data driven project, we need take another step and make it a website.
+    data driven project, we need take another step and make it a website.</p>
   link-1-label: ''
   link-1-url: ''
   link-2-label: ''
@@ -226,35 +216,32 @@
     https://github.com/contrafabulists-lessons/google-sheet-to-github-website/issues/6
 - slug: setup-github-pages
   title: Setup Github Pages
-  description: >
-    Now that you have a repository setup as part of your GitHub account, we need
-    to turn it into a website, so we can give it a look, and publish our
+  description: >-
+    <p>Now that you have a repository setup as part of your GitHub account, we
+    need to turn it into a website, so we can give it a look, and publish our
     spreadsheet data to it, to drive the content of the website. GitHub provides
     a pretty handy solution for turning any GitHub repository into a website,
-    called <a href="https://pages.github.com/">GitHub Pages</a>.
+    called <a href="https://pages.github.com/">GitHub Pages</a>.</p>
 
-
-    Make sure you are in your GitHub account, on the home page for the
+    <p>Make sure you are in your GitHub account, on the home page for the
     repository you just forked. Click on the settings tab and scroll down until
     you see the GitHub Pages section. First you are going to give the repository
     a source, then select the master branch from the dropdown. Once selected hit
     save, and the page is going to reload, forcing you to scroll back down to
-    the GitHub Pages section of the settings page again.
+    the GitHub Pages section of the settings page again.</p>
 
-
-    The next step in the set up process is to choose a theme for your website
+    <p>The next step in the set up process is to choose a theme for your website
     (something that can be updated in the future). Click on the button and you
     will be taken to a page where you are given the option to choose from six
     website themes. Select the theme you desire and you will be given the
     ability to commit your changes, with an option to leave a title and
-    description if you wish.
+    description if you wish.</p>
 
-
-    Once the page reloads you will be back at the home page for your repository.
-    Visit the settings one more time, and scroll to the GitHub Pages section one
-    last time. You will now see a URL for your now published website, allowing
-    you to browse the frontend of the website, or manage the content via the
-    repository or the cloned copy you have on your desktop. 
+    <p>Once the page reloads you will be back at the home page for your
+    repository. Visit the settings one more time, and scroll to the GitHub Pages
+    section one last time. You will now see a URL for your now published
+    website, allowing you to browse the frontend of the website, or manage the
+    content via the repository or the cloned copy you have on your desktop.</p>
   link-1-label: Github Pages
   link-1-url: 'https://pages.github.com/'
   link-2-label: ''
@@ -268,23 +255,22 @@
 - slug: get-a-github-persona-access-token
   title: Get A Github Personal Access Token
   description: >-
-    Our Google Sheet is ready, and web have a GitHub repository that operates as
-    a website. Before we can update our YAML with data from the spreadsheet we
-    need get a GitHub Personal Access Token. These tokens are the key to the
+    <p>Our Google Sheet is ready, and web have a GitHub repository that operates
+    as a website. Before we can update our YAML with data from the spreadsheet
+    we need get a GitHub Personal Access Token. These tokens are the key to the
     update script being able to access the GitHub API, and take the data from
-    the Google Sheet and update the file in the project's GitHub repository.
+    the Google Sheet and update the file in the project's GitHub repository.</p>
 
-
-    GitHub makes it easy to generate personal tokens under your account
+    <p>GitHub makes it easy to generate personal tokens under your account
     settings, which you can find under the dropdown in the top corner of your
     GitHub account next to your profile picture. Under the developer settings
     section you will find an option to work with your personal access tokens.
     You will need to give the token a name and some permission. For this project
     we just need to select public_repo to access public repositories, and
-    read:user to read all user profile data--you can select to generate token.
+    read:user to read all user profile data--you can select to generate
+    token.</p>
 
-
-    On the next screen you will be given an opportunity copy your personal
+    <p>On the next screen you will be given an opportunity copy your personal
     access token, which you should copy and paste somewhere for safe
     keeping--you will need it later. You don't want to ever publish this key to
     any repository, or share publicly. We will be only passing it in the URL
@@ -293,7 +279,7 @@
     access token list, and generate a new one. I actually recommend creating a
     separate Github user account, who only has access to this one repository for
     generating personal access tokens--keeping access away from your personal
-    Github repository.
+    Github repository.</p>
   link-1-label: Personal Access Tokens
   link-1-url: 'https://github.com/settings/tokens'
   link-2-label: ''
@@ -307,26 +293,22 @@
 - slug: pull-google-sheet-and-update-yaml
   title: Pull Google Sheet And Update YAML
   description: >-
-    The key to keeping a Google Sheet in sync with the GitHub Pages deployed
+    <p>The key to keeping a Google Sheet in sync with the GitHub Pages deployed
     website is to run a single JavaScript the is available in the project under
     the folder /pull-sheet/. This step of lesson requires you to replace some
     values in the URL, allowing the script to know where to pull the
     spreadsheet, and where it should be writing to--including the personall
-    access token we generated in the last step.
+    access token we generated in the last step.</p>
 
+    <p>This is the URL you will need to update, replacing anything in [brackets]
+    with your values:</p>
 
-    This is the URL you will need to update, replacing anything in [brackets]
-    with your values:
-
-
-    <strong>https://[github or/user].github.io/[github
+    <p><strong>https://[github or/user].github.io/[github
     repo]/pull-sheet/?org=[github or/user]&repo=[github repo]&branch=[github
-    branch]&token=[token]&key=[key]&worksheet=[worksheet]</strong>
+    branch]&token=[token]&key=[key]&worksheet=[worksheet]</strong></p>
 
-
-    To help understand what is happening within this script let's explore the
-    parameters needed as part of the URL:
-
+    <p>To help understand what is happening within this script let's explore the
+    parameters needed as part of the URL:</p>
 
     <ul>
 
@@ -350,18 +332,16 @@
 
     </ul>
 
+    <p>Once you have assembled the URL you can open your browser and run the
+    pull data from the Google Sheet, convert to YAML, and then write it to the
+    GitHub repo. Dont worry, you won't mess things up. You can always roll back
+    any changes to what was working before--one of the benefits of running data
+    projects on GitHub, using repositories.</p>
 
-    Once you have assembled the URL you can open your browser and run the pull
-    data from the Google Sheet, convert to YAML, and then write it to the GitHub
-    repo. Dont worry, you won't mess things up. You can always roll back any
-    changes to what was working before--one of the benefits of running data
-    projects on GitHub, using repositories. 
-
-
-    You can run this script anytime you make changes to the Google Sheet. Each
-    change will be committed to the project's repository, which can also be
+    <p>You can run this script anytime you make changes to the Google Sheet.
+    Each change will be committed to the project's repository, which can also be
     directly edit via the GitHub website, or locally using GitHub's desktop
-    client.
+    client.</p>
   link-1-label: JavaScript Github Page
   link-1-url: >-
     https://github.com/contrafabulists-toolbox/google-sheet-to-github-website/blob/master/pull-sheet/index.html
@@ -376,31 +356,30 @@
 - slug: display-data-using-home-page
   title: Display Data Using Home Page Listing
   description: >-
-    Now for the last step in this lesson--displaying the data on the home page
-    of the web site. This project leverages Github Pages which allows you to run
-    [an instance of Jekyll](https://jekyllrb.com/), a static content management
-    system, for any data projects you run on Github.  The home page on the
-    website for this data project has a simple HTML listing generated from the
-    YAML data we published from the Google Sheet, using <a
-    href="https://help.shopify.com/themes/liquid/basics">Liquid</a>.
+    <p>Now for the last step in this lesson--displaying the data on the home
+    page of the web site. This project leverages Github Pages which allows you
+    to run [an instance of Jekyll](https://jekyllrb.com/), a static content
+    management system, for any data projects you run on Github.  The home page
+    on the website for this data project has a simple HTML listing generated
+    from the YAML data we published from the Google Sheet, using <a
+    href="https://help.shopify.com/themes/liquid/basics">Liquid</a>.</p>
 
-
-    The home page for the project is just a simple links list, but it shows how
-    to connect to any YAML file in the _data folder, and loop through each item
-    (row). It demonstrates basic field selection and displaying them in the
+    <p>The home page for the project is just a simple links list, but it shows
+    how to connect to any YAML file in the _data folder, and loop through each
+    item (row). It demonstrates basic field selection and displaying them in the
     browser, which can easily be modified for any field published from the
     Google Sheet. You can add as many fields as you need, just make sure and
     pull the spreadsheet each time you add new fields. Once the YAML is
-    published you will have access to the new fields and values using Liquid.
+    published you will have access to the new fields and values using
+    Liquid.</p>
 
-
-    That concludes the the website publishing pipeline from Google Sheet to
+    <p>That concludes the the website publishing pipeline from Google Sheet to
     static website on Github Pages, leveraging the data features of Jekyll to
     publish data as dynamic (but static) web pages. The pull spreadsheet script
     should adjust for any fields, as well as any sheet or worksheet. It is meant
     to provide a scrappy, but effective way to take spreadsheet data and make
     available on a website, which actually free--Github public pages are free,
-    and Google Docs for Gmail is free (well, there are hidden costs).
+    and Google Docs for Gmail is free (well, there are hidden costs).</p>
   link-1-label: Liquid GitHub Page For This Project
   link-1-url: >-
     https://github.com/contrafabulists-toolbox/google-sheet-to-github-website/blob/master/index.html
@@ -415,7 +394,7 @@
 - slug: some-final-thoughts-on-lesson
   title: Some Final Thoughts On The Lesson
   description: >-
-    This lesson is a work in progress. It runs on GitHub, and I'm moving it
+    <p>This lesson is a work in progress. It runs on GitHub, and I'm moving it
     forward like I would any coding project on Github. This lesson runs using
     the same process described in the lesson. Each step of this lesson lives in
     a Google Sheet, and is published to Github using a script. However, instead
@@ -424,39 +403,36 @@
     a single post to the _posts folder</a>, taking advantage of the blog featues
     that Jekyll bring to the table. Each step of the lesson lives as a Jekyll
     blog post, allowing me to easily paginate through each entry in this
-    lesson--with everything running on Github, keeping things forkable.
+    lesson--with everything running on Github, keeping things forkable.</p>
 
-
-    I'm looking for feedback on the lesson at each step using Github issues. I
-    have setup a separate open issue for each step of the lesson, opening up a
+    <p>I'm looking for feedback on the lesson at each step using Github issues.
+    I have setup a separate open issue for each step of the lesson, opening up a
     feedback loop for each step of the lesson, that I can use to evolve each
     step, incorporating feedback within each version I release. I'm looking to
     keep developing this lesson format, rounding off with video and audio at
     each step. Helping me harden the approach so that I can fork and use as
     scaffolding for other lessons, and since it is open on GitHub, anyone else
-    can too. 
+    can too. </p>
 
-
-    This is the first lesson in a catalog of API focused lesson I'm developing.
-    I will start publishing [my API 101 collection to <a
+    <p>This is the first lesson in a catalog of API focused lesson I'm
+    developing. I will start publishing [my API 101 collection to <a
     href="http://101.apievangelist.com">my API 101 research</a>, and then work
     my way down the API lifecycle with further lessons. Here is the list of APIs
-    I'm focusing on some 101 lessons about:
+    I'm focusing on some 101 lessons about:</p>
 
-
-    Twitter, Google Sheets, Github, Flickr, Instagram, Facebook, YouTube, Slack,
-    Dropbox, Paypal, Weather Underground, Spotify, Google Maps, Reddit,
+    <p>Twitter, Google Sheets, Github, Flickr, Instagram, Facebook, YouTube,
+    Slack, Dropbox, Paypal, Weather Underground, Spotify, Google Maps, Reddit,
     Pinterest, NY Times, Twilio, Stripe, SendGrid, Algolia, Keen, Census, Yelp,
-    Walgreens
+    Walgreens</p>
 
-
-    If there is an API you'd like to see, you can submit your ideas on the
+    <p>If there is an API you'd like to see, you can submit your ideas on the
     Github issues for this step. Let me know your thoughts. I am just getting
     going with this work, so it can go anywhere. I am still learning what is
     possible with Jekyll and Liquid, but even the basic Google Sheet data
     management, publish to GitHub as YAML, and simple display using Liquid is
-    providing exteremly useful--it is how I run [my network of GitHub driven API
-    industry research](http://apievangelist.com/api-lifecycle/).
+    providing exteremly useful--it is how I run <a
+    href="http://apievangelist.com/api-lifecycle/">my network of GitHub driven
+    API industry research</a>.</p>
   link-1-label: Project Website
   link-1-url: 'https://contrafabulists-toolbox.github.io/google-sheet-to-github-website/'
   link-2-label: Project Github
