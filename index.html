@@ -26,7 +26,7 @@ title: Google Sheet To GitHub Website
           <h2 class="lesson-title" itemprop="name">{{ lesson.title }}</h2>
         </header>
         <section class="lesson-excerpt" itemprop="description">
-        <p align='center'><img src="{{ lesson.image }}" width="80%" style="padding: 15px;" /></p>
+        {% if lesson.image != '' %}<p align='center'><img src="{{ lesson.image }}" width="80%" style="padding: 15px;" /></p>{% endif %}
         <p>{{ lesson.description }}</p>
         </section>
         <div class="lesson-meta">
