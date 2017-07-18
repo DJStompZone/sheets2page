@@ -27,8 +27,9 @@
   link-1-url: 'http://apievangelist.com'
   link-2-label: Contrafabulists
   link-2-url: 'http://contrafabulists.com'
-  image: >-
+  image-1: >-
     https://s3.amazonaws.com/kinlane-productions/lessons/google-sheet-to-github.png
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
@@ -80,7 +81,8 @@
   link-1-url: 'https://contrafabulists-toolbox.github.io/google-sheet-to-github-website/'
   link-2-label: Project Github
   link-2-url: 'https://github.com/contrafabulists-toolbox/google-sheet-to-github-website'
-  image: ''
+  image-1: ''
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
@@ -148,7 +150,8 @@
   link-2-label: Project Google Sheet
   link-2-url: >-
     https://docs.google.com/spreadsheets/d/1M_trEXOgzOWVn5YJSWfcXYQ7CXu3F3CS2Y-bKEaDUiE/pubhtml
-  image: 'https://s3.amazonaws.com/kinlane-productions/lessons/create-spreadsheet.png'
+  image-1: 'https://s3.amazonaws.com/kinlane-productions/lessons/create-spreadsheet.png'
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
@@ -175,7 +178,8 @@
   link-1-url: ''
   link-2-label: ''
   link-2-url: ''
-  image: 'https://s3.amazonaws.com/kinlane-productions/lessons/publish-to-the-web.png'
+  image-1: 'https://s3.amazonaws.com/kinlane-productions/lessons/publish-to-the-web.png'
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
@@ -208,8 +212,10 @@
   link-1-url: ''
   link-2-label: ''
   link-2-url: ''
-  image: >-
-    https://s3.amazonaws.com/kinlane-productions/lessons/github-create-new-repository.png
+  image-1: >-
+    https://s3.amazonaws.com/kinlane-productions/lessons/google-sheet-to-github/forking-github-google-sheet-1.png
+  image-2: >-
+    https://s3.amazonaws.com/kinlane-productions/lessons/google-sheet-to-github/forking-github-google-sheet-2.png
   video: ''
   audio: ''
   issue: >-
@@ -246,8 +252,9 @@
   link-1-url: 'https://pages.github.com/'
   link-2-label: ''
   link-2-url: ''
-  image: >-
+  image-1: >-
     https://s3.amazonaws.com/kinlane-productions/lessons/github-pages-setup-in-settings.png
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
@@ -284,8 +291,9 @@
   link-1-url: 'https://github.com/settings/tokens'
   link-2-label: ''
   link-2-url: ''
-  image: >-
+  image-1: >-
     https://s3.amazonaws.com/kinlane-productions/lessons/personal-access-token.png
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
@@ -347,8 +355,9 @@
     https://github.com/contrafabulists-toolbox/google-sheet-to-github-website/blob/master/pull-sheet/index.html
   link-2-label: ''
   link-2-url: ''
-  image: >-
+  image-1: >-
     https://s3.amazonaws.com/kinlane-productions/lessons/google-github-script.png
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
@@ -385,8 +394,9 @@
     https://github.com/contrafabulists-toolbox/google-sheet-to-github-website/blob/master/index.html
   link-2-label: ''
   link-2-url: ''
-  image: >-
+  image-1: >-
     https://s3.amazonaws.com/kinlane-productions/lessons/liquid-links-example.png
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
@@ -437,8 +447,9 @@
   link-1-url: 'https://contrafabulists-toolbox.github.io/google-sheet-to-github-website/'
   link-2-label: Project Github
   link-2-url: 'https://github.com/contrafabulists-toolbox/google-sheet-to-github-website'
-  image: >-
+  image-1: >-
     https://s3.amazonaws.com/kinlane-productions/lessons/google-sheet-to-github.png
+  image-2: ''
   video: ''
   audio: ''
   issue: >-
