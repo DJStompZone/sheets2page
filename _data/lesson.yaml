@@ -88,7 +88,7 @@
   issue: >-
     https://github.com/contrafabulists-lessons/google-sheet-to-github-website/issues/2
 - slug: create-google-sheet
-  title: Create Google Sheet
+  title: Copy Google Sheet
   description: >-
     <p>For this lesson I am assuming that you have a Google account, and are
     aware of Google Drive and Sheets, since the datasource for the project will
@@ -100,42 +100,21 @@
 
     <p>This project depends on a specific set of fields, which are set as the
     first row for each column in the spreadsheet. Here are the fields needed for
-    this project, and for each lesson:</p>
+    this project:</p>
 
     <ul>
 
-    <li><strong>slug</strong> A unique string to describe</li>
+    <li><strong>name</strong> The name of the link.</li>
 
-    <li><strong>title</strong> The title of the step.</li>
-
-    <li><strong>description</strong> The description for the step -- may include
-    HTML.</li>
-
-    <li><strong>link-1-label</strong> A label for link one.</li>
-
-    <li><strong>link-1-url</strong> A url for link one.</li>
-
-    <li><strong>link-2-label</strong> A label for link two.</li>
-
-    <li><strong>link-2-url</strong> A url for link two.</li>
-
-    <li><strong>image</strong> An images, screenshot, or other graphic for the
-    lesson step.</li>
-
-    <li><strong>video</strong> A video or screencast for the lesson step.</li>
-
-    <li><strong>audio</strong> A audio file for the lesson step.</li>
-
-    <li><strong>issues</strong> A link to the issue setup for this lesson
-    step.</li>
+    <li><strong>url</strong> The URL for the link.</li>
 
     </ul>
 
-    <p>I recommend freezing the first row in the Google Sheet, preventing it
-    from being caught up in any sorting of the steps. The script that takes the
-    data from this spreadsheet depends on all these fields being present to work
-    right. Make sure you do not change the column field names, only the contents
-    of each row.</p>
+    <p>I recommend keeping the first row in the Google Sheet frozen, preventing
+    it from being caught up in any sorting of the steps. The script that takes
+    the data from this spreadsheet depends on all these fields being present to
+    work right. Make sure you do not change the column field names, only the
+    contents of each row.</p>
 
     <p><a
     href="https://contrafabulists-toolbox.github.io/google-sheet-to-github-website/">While
@@ -145,11 +124,12 @@
     data project. All you do is share the Google Sheet with anyone you want to
     help create or manage data, and publish regularly using the process outlined
     in future steps for this lesson.</p>
-  link-1-label: Google Sheets
-  link-1-url: 'https://docs.google.com/spreadsheets/'
-  link-2-label: Project Google Sheet
-  link-2-url: >-
+  link-1-label: Project Google Sheet
+  link-1-url: >-
     https://docs.google.com/spreadsheets/d/1M_trEXOgzOWVn5YJSWfcXYQ7CXu3F3CS2Y-bKEaDUiE/pubhtml
+  link-2-label: Copy Google Sheet
+  link-2-url: >-
+    https://docs.google.com/spreadsheets/d/1M_trEXOgzOWVn5YJSWfcXYQ7CXu3F3CS2Y-bKEaDUiE/copy#gid=0
   image-1: >-
     https://s3.amazonaws.com/kinlane-productions/lessons/google-sheet-to-github/create-google-sheet-links.png
   image-2: ''
