@@ -209,8 +209,8 @@
     with the GitHub website, or clone using the desktop application and work on
     locally--I recommend doing this. Now that we have a hosting location for our
     data driven project, we need take another step and make it a website.</p>
-  link-1-label: ''
-  link-1-url: ''
+  link-1-label: Repo To Fork
+  link-1-url: 'https://github.com/contrafabulists-toolbox/google-sheet-to-github-website'
   link-2-label: ''
   link-2-url: ''
   image-1: >-
