@@ -2,3 +2,28 @@
 layout: default
 title: Google Sheet To GitHub Website
 ---
+
+<div class="cf frame">
+  <a name="toplesson"></a>
+  {% for lesson in site.data.lesson %}
+    <article class="lesson" itemscope itemtype="http://schema.org/Bloglessoning" role="article">
+      <div class="article-item">
+        <header class="lesson-header">
+          <h2 class="lesson-title" itemprop="name"><a href="{{ lesson.link1 }}" itemprop="url">{{ lesson.title }}</a></h2>
+        </header>
+        <section class="lesson-excerpt" itemprop="description">
+        <p><img src="{{ lesson.image }}" width="45%" style="padding: 15px;" align="right" /></p>
+        <p>{{ lesson.content }}</p>
+        </section>
+        <div class="lesson-meta">
+          <p><strong>Links</strong></p>
+          <ul>
+            {% if lesson.link-1-url != '' %}<li><a href="{{ lesson.link-1-url }}">{{ lesson.link-1-label }}</a></li>{% endif %}
+            {% if lesson.link-2-url != '' %}<li><a href="{{ lesson.link-2-url }}">{{ lesson.link-2-label }}</a></li>{% endif %}
+            <li><a href="{{ lesson.issue }}">Github Issue For This Step</a></li>
+          </ul>
+        </div>
+      <div>
+    </article>
+  {% endfor %}
+</div>
